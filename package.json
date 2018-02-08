@@ -6,16 +6,16 @@
     "app",
     "remote"
   ],
-  "version": "2.1.4",
+  "version": "2.1.5",
   "license": "MIT",
   "author": {
     "name": "Filippo Tortomasi",
     "email": "filippo.tortomasi@gmail.com.com",
-    "url": "https://github.com/fttx"
+    "url": "https://github.com/Lebioda"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fttx/barcode-to-pc-server.git"
+    "url": "https://github.com/Lebioda/barcode-to-pc-server.git"
   },
   "main": "electron/main.js",
   "angular-cli": {},
