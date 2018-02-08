@@ -8,6 +8,8 @@ clone_depth: 1
 environment:
   nodejs_version: "8"
   BONJOUR_SDK_HOME: 'C:\\Program Files\\Bonjour SDK'
+  GH_TOKEN:
+    secure: lwbqBvVyoUixdYxbuM3XYA79aU1S4rko4Cmm4erd1UoPEhDhegPoahl+sGXTFnH3
   BONJOUR_SDK_DOWNLOAD:
     secure: CbQb/GgWQDvF8UNtbDgCl1G+tl2UljY3yDih6vbxp9Hn9YK4pANu1l5syi7aduenpaoCWgkNZklcG3Pnyw31GQ==
 image: Visual Studio 2015
