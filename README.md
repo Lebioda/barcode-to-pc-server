@@ -81,7 +81,9 @@ To publish an update:
 
 1. Increase the version number of the package.json
 2. Commit & push the changes
-3. Add a tag and name it `v<new version number>`
-4. Push the tag
+3. Add a tag - "releases" => "draft a new release" (https://github.com/Lebioda/barcode-to-pc-server/releases/new)
+4. Name it `v<new version number>` and save as draft (not publish, not pre-release)
+5. Make a build on appveyor.com
+6. Publish release
 
 Upon the tag push, travis and appveyor will build and sign the new installers. At this point if all looks good the only thing left to do is to publish the Github release draft.
