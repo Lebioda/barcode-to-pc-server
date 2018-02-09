@@ -49,7 +49,7 @@ install:
   - npm run tsc --version  
 build_script:
   - cmd: npm run publish-win
-# artifacts:
-#   - path: /dist\\dist\\nsis-web\.*\.exe/
-#   - path: /dist\\dist\\nsis-web\.*\.7z/
+artifacts:
+  - path: /dist\\dist\\nsis-web\.*\.exe/
+  - path: /dist\\dist\\nsis-web\.*\.7z/
 test: off
