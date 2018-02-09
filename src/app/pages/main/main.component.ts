@@ -63,6 +63,13 @@ export class MainComponent implements OnInit {
             { name: 'SHIFT', value: 'shift', type: 'key' },
             { name: 'RIGHT_SHIFT', value: 'right_shift', type: 'key' },
             { name: 'SPACE', value: 'space', type: 'key' },
+            
+            { name: 'F8', value: 'f8', type: 'key' },
+            { name: 'F9', value: 'f9', type: 'key' },
+            { name: 'F10', value: 'f10', type: 'key' },
+            { name: 'F11', value: 'f11', type: 'key' },
+            { name: 'F12', value: 'f12', type: 'key' },
+            { name: 'INS', value: 'insert', type: 'key' },
 
             { name: 'TIMESTAMP', value: 'timestamp', type: 'variable' },
             { name: 'DATE', value: 'date', type: 'variable' },
