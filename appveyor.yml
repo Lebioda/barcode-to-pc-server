@@ -11,7 +11,7 @@ environment:
   GH_TOKEN:
     secure: lwbqBvVyoUixdYxbuM3XYA79aU1S4rko4Cmm4erd1UoPEhDhegPoahl+sGXTFnH3
   BONJOUR_SDK_DOWNLOAD:
-    secure: CbQb/GgWQDvF8UNtbDgCl1G+tl2UljY3yDih6vbxp9Hn9YK4pANu1l5syi7aduenpaoCWgkNZklcG3Pnyw31GQ==
+    secure: TtkP7wZnmx8rx+aURYnhQq5kQKfw3G7xJiBF0bkaS2sqsnk85vdKc5fO7Ho7x2sq49skR+UkCcSlAibIPvS+NQ==
 image: Visual Studio 2015
 # init:
 #  - ps: iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
@@ -24,7 +24,7 @@ install:
   - appveyor DownloadFile https://github.com/fttx/barcode-to-pc-server/blob/master/electron-resources/Bonjour64.msi?raw=true
   - msiexec /i Bonjour64.msi /qn
   - del Bonjour64.msi
-  - appveyor DownloadFile https://www.samuelattard.com/files/bonjoursdksetup.exe
+  - appveyor DownloadFile %BONJOUR_SDK_DOWNLOAD%
   - bonjoursdksetup.exe /quiet
   - del bonjoursdksetup.exe
 
